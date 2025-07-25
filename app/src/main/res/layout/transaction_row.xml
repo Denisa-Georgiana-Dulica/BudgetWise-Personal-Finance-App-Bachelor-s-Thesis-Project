@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@android:color/transparent"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="6dp"
+    android:id="@+id/cardViewTransaction"
+    app:cardUseCompatPadding="true"
+    app:cardPreventCornerOverlap="false">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/iconCategoryTransaction_img"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/extra_money"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/titleTransaction"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/altele"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginStart="8dp"
+            app:layout_constraintTop_toTopOf="@+id/iconCategoryTransaction_img"
+            app:layout_constraintStart_toEndOf="@+id/iconCategoryTransaction_img"
+            app:layout_constraintEnd_toStartOf="@+id/amountTransaction"
+            app:layout_constraintHorizontal_bias="0"
+            android:maxLines="1"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/accountNameTransaction"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/account"
+            android:textSize="14sp"
+            android:textColor="#888888"
+            app:layout_constraintTop_toBottomOf="@id/titleTransaction"
+            app:layout_constraintStart_toStartOf="@+id/titleTransaction"
+            app:layout_constraintBottom_toBottomOf="@+id/iconCategoryTransaction_img"
+            app:layout_constraintEnd_toStartOf="@+id/dateTransaction"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/amountTransaction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_0_ron"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            app:layout_constraintTop_toTopOf="@+id/titleTransaction"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/dateTransaction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_29_12_2024"
+            android:textColor="#888888"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/amountTransaction"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/accountNameTransaction" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/dashboard_menu"
+            android:title="@string/menu_dashboard" />
+        <item
+            android:id="@+id/nav_transactions"
+            android:icon="@drawable/transaction_menu"
+            android:title="@string/transactions_menu" />
+        <item
+            android:id="@+id/nav_accounts"
+            android:icon="@drawable/baseline_account_balance_24"
+            android:title="@string/accounts" />
+        <item
+            android:id="@+id/nav_limits"
+            android:icon="@drawable/padlock"
+            android:title="@string/limits" />
+        <item
+            android:id="@+id/nav_prediction"
+            android:icon="@drawable/baseline_pie_chart_outline_24"
+            android:title="Charts" />
+        <item
+            android:id="@+id/nav_calculator"
+            android:icon="@drawable/baseline_calculate_24"
+            android:title="50/30/20 calculator" />
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@drawable/baseline_person_24"
+            android:title="User" />
+    </group>
+</menu>

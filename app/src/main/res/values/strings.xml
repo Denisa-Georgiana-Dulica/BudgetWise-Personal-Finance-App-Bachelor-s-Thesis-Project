@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">Budget Wise</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="login_title">Login</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_autentificare">Sign in</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign up</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="sign_up">Sign up</string>
+    <string name="last_name">Last name</string>
+    <string name="first_name">First name</string>
+    <string name="go_to_login">Go to Login</string>
+    <string name="please_enter_a_valid_email">Please enter a valid email</string>
+    <string name="please_enter_a_valid_last_name_letters_only_minimum_2_characters">Please enter a valid last-name (letters only, minimum 2 characters)</string>
+    <string name="please_enter_a_valid_first_name_letters_only_minimum_2_characters">Please enter a valid first-name (letters only, minimum 2 characters)</string>
+    <string name="the_password_must_have_at_least_6_characters_letters_and_numbers">The password must have at least 6 characters, letters and numbers</string>
+    <string name="all_fields_are_required">All fields are required</string>
+    <string name="transactions_menu">Transactions</string>
+    <string name="todo">ToDo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="password_is_invalid">The supplied auth credential is incorrect</string>
+    <string name="incorrect_email_or_password">Incorrect email/password or this user does not exist</string>
+    <string name="no_user_record">no user record</string>
+    <string name="this_user_does_not_exist">This user does not exist</string>
+    <string name="error">"Error: "</string>
+    <string name="email_address_is_already_in_use">The email address is already in use by another account</string>
+    <string name="this_user_already_exists">This user already exists</string>
+    <string name="registration_successful">Registration successful</string>
+    <string name="login_successful">Login successful</string>
+    <string name="amount_ron">Amount (RON)</string>
+    <string name="data_tranzac_iei_15_04_2025">15/04/2025</string>
+    <string name="bursa">Bursa</string>
+    <string name="select_category">Select category:</string>
+    <string name="select_account">Select account:</string>
+    <string name="note_op_ional">Note (opțional)</string>
+    <string name="tranzac_ie_programat">Scheduled transaction</string>
+    <string name="start_date">Start date:</string>
+    <string name="end_date">End date:</string>
+    <string name="transfer_pick_up_day_1_31">Transfer pick-up day (1-31)</string>
+    <string name="select_the_frequency">Select the frequency:</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="income">Income</string>
+    <string name="add_new_income">Add new income</string>
+    <string name="add_new_expense">Add new expense</string>
+    <string name="account_name">Account name</string>
+    <string name="note">Note</string>
+    <string name="enter_an_amount">Enter an amount</string>
+    <string name="the_sum_must_be_positive">The sum must be positive</string>
+    <string name="invalid_amount_format">Invalid amount format</string>
+    <string name="start_date_must_be_before_end_date">Start date must be before end date</string>
+    <string name="data_parsing_error">Data parsing error</string>
+    <string name="error_user_add_transaction">Error user add transaction</string>
+    <string name="enter_account_name">Enter account name</string>
+    <string name="enter_the_current_balance">Enter the current balance</string>
+    <string name="the_balance_must_be_positive">The balance must be positive</string>
+    <string name="invalid_balance_format">Invalid balance format</string>
+    <string name="accounts">Accounts</string>
+    <string name="insufficient_balance_in_selected_account">Insufficient balance in selected account</string>
+    <string name="transaction">transaction</string>
+    <string name="altele">Altele</string>
+    <string name="account">account</string>
+    <string name="_0_ron">0 RON</string>
+    <string name="_29_12_2024">29/12/2024</string>
+    <string name="expense_row_amount_template">%.2f RON</string>
+    <string name="month">month</string>
+    <string name="total">Total:</string>
+    <string name="the_transaction_has_been_deleted">The transaction has been deleted</string>
+    <string name="account_added_successfully">Account added successfully</string>
+    <string name="account_addition_canceled">Account addition canceled</string>
+    <string name="transaction_added_successfully">Transaction added successfully</string>
+    <string name="transaction_updated_successfully">Transaction updated successfully</string>
+    <string name="transaction_updating_canceled">Transaction updating canceled</string>
+    <string name="cont">Cont</string>
+    <string name="type">type</string>
+    <string name="amount">0 RON</string>
+    <string name="account_updated_successfully">Account updated successfully</string>
+    <string name="account_deleted">Account deleted</string>
+    <string name="failed_to_delete_account">Failed to delete account</string>
+    <string name="no_transactions_this_month">No transactions this month</string>
+    <string name="select_category_type">Select category type:</string>
+    <string name="select_account_limit">Select account:</string>
+    <string name="the_maximum_amount">The maximum amount</string>
+    <string name="please_enter_a_maximum_amount">Please enter a maximum amount.</string>
+    <string name="amount_must_be_greater_than_0">Amount must be greater than 0.</string>
+    <string name="invalid_amount">Invalid amount</string>
+    <string name="start_date_must_be_today_or_in_the_future">Start date must be today or in the future</string>
+    <string name="end_date_must_be_after_the_start_date">End date must be after the start date</string>
+    <string name="please_select_a_category">Please select a category.</string>
+    <string name="please_select_an_account">Please select an account.</string>
+    <string name="limits">Goals</string>
+    <string name="update_limit">Update limit</string>
+    <string name="end_date_must_be_at_least_one_day_after_start_date">End date must be at least one day after start date</string>
+    <string name="limit_added_successfully">Limit added successfully</string>
+    <string name="category">Category</string>
+    <string name="_01_05_2025">01/05/2025</string>
+    <string name="_31_05_2025">31/05/2025</string>
+    <string name="_5_ron">5 RON</string>
+    <string name="the_remaining_amount">The remaining amount:</string>
+    <string name="view_the_current_month_s_expenses">View the current month\'s expenses</string>
+    <string name="choose_a_category_and_observe_the_evolution">Choose a category and observe the evolution</string>
+    <string name="enter_your_monthly_income">Enter your monthly income RON</string>
+    <string name="calculated">Calculated</string>
+    <string name="nevoi">Needs 50%:</string>
+    <string name="wishes">Wishes 30%:</string>
+    <string name="savings">Savings 20%:</string>
+    <string name="recommended_amounts_for_managing_your_budget">Recommended amounts for managing your budget</string>
+    <string name="grafic_buget">Grafic buget</string>
+    <string name="evolution_throughout_the_year">Evolution throughout the year</string>
+    <string name="evolution_current_month">Evolution current month</string>
+    <string name="transaction_addition_was_canceled">Transaction addition was canceled</string>
+    <string name="limit_updated_successfully">Limit updated successfully</string>
+    <string name="adding_the_limit_has_been_canceled">Adding the limit has been canceled</string>
+    <string name="change_email">Change Email</string>
+    <string name="log_out">Log out</string>
+    <string name="change">Change</string>
+    <string name="new_email">New email</string>
+    <string name="old_email">Old email</string>
+    <string-array name="frequency">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Annually</item>
+    </string-array>
+    <string-array name="frequency_monthly_weekly">
+        <item>Monthly</item>
+        <item>Weekly</item>
+        <item>Daily</item>
+    </string-array>
+    <string-array name="frequency_weekly">
+        <item>Weekly</item>
+        <item>Daily</item>
+    </string-array>
+    <string-array name="frequency_daily">
+        <item>Daily</item>
+    </string-array>
+</resources>

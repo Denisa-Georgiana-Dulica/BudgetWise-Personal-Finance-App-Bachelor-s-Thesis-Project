@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="32dp"
+    tools:context=".fragments.ReportFragment">
+
+    <CheckBox
+        android:id="@+id/checkboxBarChart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/view_the_current_month_s_expenses"
+        android:textSize="16sp"
+        android:checked="false"
+        android:buttonTint="#5a9fef"
+        android:layout_marginBottom="12dp" />
+
+    <CheckBox
+        android:id="@+id/checkboxLineChart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_a_category_and_observe_the_evolution"
+        android:textSize="16sp"
+        android:checked="false"
+        android:buttonTint="#5a9fef"
+        android:layout_marginBottom="24dp" />
+
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageViewChart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:contentDescription="chart_image"
+        android:visibility="gone" />
+</LinearLayout>
